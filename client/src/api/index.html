@@ -1,0 +1,97 @@
+import json
+
+projects_data = [
+    {
+        "title": "Resume & Portfolio Builder",
+        "description": "Built a full-stack web application to generate resumes, cover letters, and portfolios using AI-powered content.",
+        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+        "technologies": ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
+        "liveLink": "",
+        "githubLink": "https://github.com/AratiThorat96/AI-Resume-and-Portfolio-Builder",
+        "category": "web",
+        "featured": True,
+        "order": 1
+    },
+    {
+        "title": "E-Commerce Website",
+        "description": "Developed a complete e-commerce platform with cart, checkout, order management, Google Authentication, Razorpay payment gateway, and admin dashboard.",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+        "technologies": ["MERN Stack"],
+        "liveLink": "",
+        "githubLink": "https://github.com/AratiThorat96/E-commerce-Web",
+        "category": "web",
+        "featured": True,
+        "order": 2
+    },
+    {
+        "title": "Vehicle Tracking System",
+        "description": "Real-time vehicle tracking system with trip history, emergency SMS alerts, admin-user management, and live location tracking.",
+        "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+        "technologies": ["PHP", "MySQL", "JavaScript", "Google Maps API"],
+        "liveLink": "",
+        "githubLink": "http://github.com/AratiThorat96/Vehicle-Tracking-System-with-Live-GPS-Alerts-and-Admin-Panel",
+        "category": "web",
+        "featured": True,
+        "order": 3
+    },
+    {
+        "title": "WhatsApp Clone",
+        "description": "Developed Android WhatsApp Clone with chat lists, status updates, call history, real-time messaging, and Firebase authentication.",
+        "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=1200&q=80",
+        "technologies": ["Kotlin", "Java", "Firebase", "Jetpack Compose"],
+        "liveLink": "",
+        "githubLink": "https://github.com/AratiThorat96/WhatsApp-Clone",
+        "category": "mobile",
+        "featured": True,
+        "order": 4
+    },
+    {
+        "title": "Sai Fabrication App",
+        "description": "Built admin and client applications for fabrication design management with image upload, category-wise browsing, and Firebase integration.",
+        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+        "technologies": ["Kotlin", "Firebase"],
+        "liveLink": "",
+        "githubLink": "https://github.com/AratiThorat96/SaiFabrication_App",
+        "category": "mobile",
+        "featured": True,
+        "order": 5
+    }
+]
+
+certificates_data = [
+    {
+        "title": "Full Stack Web Development",
+        "provider": "Udemy",
+        "issueDate": "2025-01-01",
+        "expiryDate": None,
+        "credentialId": "",
+        "credentialUrl": "",
+        "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80",
+        "description": "Certification in full stack web development."
+    },
+    {
+        "title": "Artificial Intelligence Fundamentals",
+        "provider": "IBM SkillsBuild",
+        "issueDate": "2025-01-01",
+        "expiryDate": None,
+        "credentialId": "",
+        "credentialUrl": "",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+        "description": "Certification in artificial intelligence fundamentals."
+    },
+    {
+        "title": "AWS Academy Cloud Foundations",
+        "provider": "AWS",
+        "issueDate": "2025-01-01",
+        "expiryDate": None,
+        "credentialId": "",
+        "credentialUrl": "",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+        "description": "Cloud foundations certification."
+    }
+]
+
+print("Projects Data:")
+print(json.dumps(projects_data, indent=2, default=str))
+print("\nCertificates Data:")
+print(json.dumps(certificates_data, indent=2, default=str))

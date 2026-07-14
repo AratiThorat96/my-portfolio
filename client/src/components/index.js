@@ -1,0 +1,13 @@
+export { default as Navbar } from './Navbar';
+export { default as Footer } from './Footer';
+export { default as HeroSection } from './HeroSection';
+export { default as AboutSection } from './AboutSection';
+export { default as SkillsSection } from './SkillsSection';
+export { default as ProjectsSection } from './ProjectsSection';
+export { default as CertificationsSection } from './CertificationsSection';
+export { default as DomainResumeSection } from './DomainResumeSection';
+export { default as AchievementsSection } from './AchievementsSection';
+export { default as EducationSection } from './EducationSection';
+export { default as ContactSection } from './ContactSection';
+export { default as LoadingSpinner } from './LoadingSpinner';
+export { default as ResumeButtons } from './ResumeButtons';
